@@ -18,6 +18,7 @@ int main()
         if (con < 1 || con > 5)
         {
             printf("Invalid input! Please enter correct value");
+            continue;
         }
 
         // Taking in the values to be operated on
@@ -33,9 +34,9 @@ int main()
             result = num1 + num2;
             printf("Sum= %.1f", result);
             break;
-            
+
         case 2:
-            printf("\nSubtraction\n----=-----\n");
+            printf("\nSubtraction\n----------\n");
             result = num1 - num2;
             printf("Difference= %.1f", result);
             break;
@@ -67,7 +68,7 @@ int main()
         // retry input
         printf("\n\nWould you like to try it again?");
         scanf("%s", retry);
-    } while (strcmp(retry, "YES") || strcmp(retry, "yes") || strcmp(retry, "Yes") || strcmp(retry, "Y") || strcmp(retry, "y"));
+    } while (strcmp(retry, "YES") == 0 || strcmp(retry, "yes") == 0 || strcmp(retry, "Yes") == 0 || strcmp(retry, "Y") == 0 || strcmp(retry, "y") == 0);
 
     return 0;
 }
