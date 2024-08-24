@@ -11,12 +11,12 @@ Embarking on a journey to learn the C programming language in two weeks has been
 - **Hello, World!**: Wrote my first C program, understanding the structure of a basic C program.
 - **Topics Covered**: Data types, Variables, and Constants.
 
-<!---### Day 2: Control Structures
+### Day 2: Control Structures
 - **Conditional Statements:** Explored `if`, `else`, and `switch` statements.
 - **Loops:** Practiced `for`, `while`, and `do-while` loops.
 - **Project:** Created a simple calculator using control structures.
 
-### Day 3: Functions and Recursion
+<!--### Day 3: Functions and Recursion
 - **Functions:** Learned how to define and call functions in C.
 - **Recursion:** Dived into the concept of recursion with factorial and Fibonacci examples.
 - **Project:** Implemented a recursive solution for the Tower of Hanoi problem.
