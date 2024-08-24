@@ -3,71 +3,6 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "Build with G++ Active file",
-            "command": "C:\\mingw64\\bin\\g++.exe",
-            "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "*.cpp",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "detail": "C/C++: g++.exe build active file"
-        },
-        {
-            "type": "cppbuild",
-            "label": "Build with G++",
-            "command": "C:\\mingw64\\bin\\g++.exe",
-            "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "-std=c++23",
-                "*.cpp",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": "build",
-            "detail": "compiler: C:\\mingw64\\bin\\g++.exe"
-        },
-        {
-            "type": "cppbuild",
-            "label": "Build with G++ Single file",
-            "command": "C:\\mingw64\\bin\\g++.exe",
-            "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "-std=c++23",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": "build",
-            "detail": "compiler: C:\\mingw64\\bin\\g++.exe"
-        },
-        {
-            "type": "cppbuild",
             "label": "Build with Gcc Single file",
             "command": "C:\\mingw64\\bin\\gcc.exe",
             "args": [
@@ -83,7 +18,10 @@
             "problemMatcher": [
                 "$gcc"
             ],
-            "group": "build",
+            "group": 
+            {"kind": "build",
+            "isDefault": true
+        },
             "detail": "compiler: C:\\mingw64\\bin\\g++.exe"
         }
     ]
