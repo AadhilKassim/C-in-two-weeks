@@ -21,12 +21,12 @@ Embarking on a journey to learn the C programming language in two weeks has been
 - **Recursion:** Dived into the concept of recursion with factorial and Fibonacci examples.
 - **Project:** Implemented a recursive solution for the Tower of Hanoi problem.
 
-<!--### Day 4: Pointers and Memory Management
+### Day 4: Pointers and Memory Management
 - **Pointers:** Studied pointer variables, pointer arithmetic, and memory addresses.
 - **Dynamic Memory Allocation:** Practiced `malloc`, `calloc`, `realloc`, and `free`.
 - **Project:** Developed a dynamic array using pointers and memory allocation functions.
 
-### Day 5: Arrays and Strings
+<!--### Day 5: Arrays and Strings
 - **Arrays:** Understood the concept of arrays and multi-dimensional arrays.
 - **Strings:** Manipulated strings using arrays of characters and built-in string functions.
 - **Project:** Created a program to perform various string operations like concatenation, comparison, and reversal.
