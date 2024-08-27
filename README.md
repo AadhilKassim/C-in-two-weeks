@@ -28,10 +28,10 @@ Embarking on a journey to learn the C programming language in two weeks has been
 
 ### Day 5: Arrays and Strings
 - **Arrays:** Understood the concept of arrays and multi-dimensional arrays.
-<!-- - **Strings:** Manipulated strings using arrays of characters and built-in string functions.
+- **Strings:** Manipulated strings using arrays of characters and built-in string functions.
 - **Project:** Created a program to perform various string operations like concatenation, comparison, and reversal.
 
-### Day 6: Structures and Unions
+<!--### Day 6: Structures and Unions
 - **Structures:** Learned how to define and use structures to group related data.
 - **Unions:** Explored unions and understood their memory-saving potential.
 - **Project:** Implemented a simple employee management system using structures.
