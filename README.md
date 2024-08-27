@@ -26,9 +26,9 @@ Embarking on a journey to learn the C programming language in two weeks has been
 - **Dynamic Memory Allocation:** Practiced `malloc`, `calloc`, `realloc`, and `free`.
 - **Project:** Developed a dynamic array using pointers and memory allocation functions.
 
-<!--### Day 5: Arrays and Strings
+### Day 5: Arrays and Strings
 - **Arrays:** Understood the concept of arrays and multi-dimensional arrays.
-- **Strings:** Manipulated strings using arrays of characters and built-in string functions.
+<!-- - **Strings:** Manipulated strings using arrays of characters and built-in string functions.
 - **Project:** Created a program to perform various string operations like concatenation, comparison, and reversal.
 
 ### Day 6: Structures and Unions
