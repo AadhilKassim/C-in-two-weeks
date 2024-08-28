@@ -31,12 +31,12 @@ Embarking on a journey to learn the C programming language in two weeks has been
 - **Strings:** Manipulated strings using arrays of characters and built-in string functions.
 - **Project:** Created a program to perform various string operations like concatenation, comparison, and reversal.
 
-<!--### Day 6: Structures and Unions
+### Day 6: Structures and Unions
 - **Structures:** Learned how to define and use structures to group related data.
 - **Unions:** Explored unions and understood their memory-saving potential.
 - **Project:** Implemented a simple employee management system using structures.
 
-### Day 7: File I/O
+<!--### Day 7: File I/O
 - **File Handling:** Learned how to read from and write to files in C.
 - **Project:** Developed a program to manage a simple inventory system with data stored in a file.
 
