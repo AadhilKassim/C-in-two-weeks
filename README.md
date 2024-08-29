@@ -36,11 +36,11 @@ Embarking on a journey to learn the C programming language in two weeks has been
 - **Unions:** Explored unions and understood their memory-saving potential.
 - **Project:** Implemented a simple employee management system using structures.
 
-<!--### Day 7: File I/O
+### Day 7: File I/O
 - **File Handling:** Learned how to read from and write to files in C.
-- **Project:** Developed a program to manage a simple inventory system with data stored in a file.
+<!--- **Project:** Developed a program to manage a simple inventory system with data stored in a file.-->
 
-## Week 2: Intermediate Concepts and Projects
+<!--## Week 2: Intermediate Concepts and Projects
 
 ### Day 8: Advanced Pointers and Memory
 - **Function Pointers:** Explored the use of pointers to functions.
@@ -80,4 +80,4 @@ Embarking on a journey to learn the C programming language in two weeks has been
 
 In these two weeks, I've gained a solid understanding of the C programming language, from the basics to more advanced topics. This repository serves as a testament to my learning journey, and I hope it inspires others who are starting their path in C programming. 
 
-Feel free to explore the code, contribute, or provide feedback. The journey of learning never truly ends, and I'm excited to see where C programming takes me next!
+Feel free to explore the code, contribute, or provide feedback. The journey of learning never truly ends, and I'm excited to see where C programming takes me next!>
