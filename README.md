@@ -41,7 +41,7 @@ Embarking on a journey to learn the C programming language in two weeks has been
 <!--- **Project:** Developed a program to manage a simple inventory system with data stored in a file.-->
 
 1 Week completed! Now take a break for 1-2 Days read through all of your code and see if there's anything that you sill have some fuzziness.
-Find a short youtube video on it I suggest Channels like <a href="https://www.youtube.com/@BroCodez">Bro Code</a>
+Find a short youtube video on it I suggest Channels like <a href="https://www.youtube.com/@BroCodez">Bro Code</a> and <a href="https://www.youtube.com/@freecodecamp">FreeCodeCamp.org</a> on youtube.
 
 <!--## Week 2: Intermediate Concepts and Projects
 
