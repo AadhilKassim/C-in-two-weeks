@@ -53,9 +53,9 @@ Find a short youtube video on it I suggest Channels like <a href="https://www.yo
 - **Pointers to Structures:** Practiced accessing structure members using pointers.
 - **Project:** Implemented a menu-driven program using function pointers.
 
-<!--### Day 9: Linked Lists
+### Day 9: Linked Lists
 - **Singly Linked List:** Created a singly linked list with basic operations like insertion, deletion, and traversal.
-- **Doubly Linked List:** Expanded to a doubly linked list, adding reverse traversal.
+<!-- - **Doubly Linked List:** Expanded to a doubly linked list, adding reverse traversal.
 - **Project:** Built a student record management system using linked lists.
 
 ### Day 10: Sorting and Searching Algorithms
