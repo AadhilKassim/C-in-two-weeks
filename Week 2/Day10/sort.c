@@ -12,10 +12,13 @@ int main()
 
     //bubble sort
     bubblesort(numbers, n);
+    printf("\n");
     //selection sort
     selectionsort(numbers, n);
+    printf("\n");
     //quick sort
     quicksort(numbers, n);
+    printf("\n");
     return 0;
 }
 
@@ -43,7 +46,7 @@ void bubblesort(int arr[], int size)
         
 
     }
-
+    printf("Bubble Sort:\t");
     for (size_t i = 0; i < size; i++)
     {
         printf("%d\t",data[i]);
@@ -53,7 +56,34 @@ void bubblesort(int arr[], int size)
 
 void selectionsort(int arr[],int size)
 {
-    int data[size];
+    int data[size], i, j, min_index;
+    for (size_t i = 0; i < size; i++)
+    {
+        data[i] = arr[i];
+    }
+
+    for ( i = 0; i < size-1; i++)
+    {
+        int temp;
+        min_index = i;
+        for ( j = i+1; j < size; j++){
+            if (data[j] < data[min_index])
+            {
+                min_index = j;
+            }
+        }
+            temp = data[i];;
+            data[i] = data[min_index];
+            data[min_index] = temp;
+        
+    }
+
+    printf("Selection Sort:\t");
+    for (size_t i = 0; i < size; i++)
+    {
+        printf("%d\t",data[i]);
+    }
+    
 }
 
 void quicksort(int arr[],int size)
