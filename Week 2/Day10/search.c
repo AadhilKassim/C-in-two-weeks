@@ -1,5 +1,7 @@
 #include <stdio.h>
 void linearSearch(int *, int, int);
+void binarySearch(int *, int, int);
+int selectionsort(int *, int);
 
 int main()
 {
@@ -21,6 +23,7 @@ int numbers[] = {
     scanf("%d", &n);
 
     linearSearch(numbers, n, size);
+    binarySearch(selectionsort(numbers, size), n, size);
 
     return 0;
 }
@@ -34,5 +37,37 @@ void linearSearch(int arr[], int n, int size)
             printf("%d found at position %d in the array", n, i);
         }
     }
+    
+}
+void binarySearch(int sorted_arr[], int n ,int size)
+{
+    
+}
+
+int selectionsort(int arr[],int size)
+{
+    int data[size], i, j, min_index;
+    for (size_t i = 0; i < size; i++)
+    {
+        data[i] = arr[i];
+    }
+
+    for ( i = 0; i < size-1; i++)
+    {
+        int temp;
+        min_index = i;
+        for ( j = i+1; j < size; j++){
+            if (data[j] < data[min_index])
+            {
+                min_index = j;
+            }
+        }
+            temp = data[i];;
+            data[i] = data[min_index];
+            data[min_index] = temp;
+        
+    }
+
+    return data;
     
 }
